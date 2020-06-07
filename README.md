@@ -7,6 +7,9 @@ The cheat my be detectable by VAC.
 I'll play with it a lot and i will update this section.
 For the moment, play with this cheat or in non vac secure servers or on an alt account.
 
+# Usage
+python Rainbow.py
+
 # Contact
 If you have ideas of improvements or if you want to report a bug please make a message on https://github.com/ALittlePatate/Rainbow-Cheat-CS-GO/issues or message me on Discord at A Little Patate#6013.
 
