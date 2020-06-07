@@ -1,4 +1,4 @@
-# Rainbow-Cheat-CS-GO
+# Rainbow Cheat CS:GO
 A private csgo legit cheat in python 3.5 based on cheats found in github wich include wallhack, triggerbot, auto bhop, no flash and more in the next updates.
 
 # Read this (important)
