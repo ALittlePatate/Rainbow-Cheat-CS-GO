@@ -11,26 +11,19 @@ For the moment, play with this cheat or in non vac secure servers or on an alt a
 python Rainbow.py
 
 # Contact
-If you have ideas of improvements or if you want to report a bug please make a message on https://github.com/ALittlePatate/Rainbow-Cheat-CS-GO/issues or message me on Discord at A Little Patate#6013.
+If you have ideas of improvements or if you want to report a bug please make a message on [Issues](https://github.com/ALittlePatate/Rainbow-Cheat-CS-GO/issues) or message me on [Discord](https://discord.com/) at A Little Patate#6013.
 
-# V1.01 Features and improvements
+# Changelog
 
-Added a "current value" label into the triggerbot configuration.
+## V1.01
+* Added a "current value" label into the triggerbot configuration.
+* Added commentaries.
+* Deleted an useless function
 
-Added commentaries.
-
-Deleted an useless function
-
-# V1.0 Features
-
-Aimbot (Not added yet)
-
-Wallhack (the configuration isn't done yet)
-
-Triggerbot (all the features are working)
-
-Auto Bhop (working fine)
-
-Not Flash (working fine)
-
-Configurations loader/exporter (work only for the triggerbot, i'll add the other cheats in a next update)
+## V1.0
+* Aimbot (Not added yet)
+* Wallhack (the configuration isn't done yet)
+* Triggerbot (all the features are working)
+* Auto Bhop (working fine)
+* Not Flash (working fine)
+* Configurations loader/exporter (work only for the triggerbot, i'll add the other cheats in a next update)
