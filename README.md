@@ -13,6 +13,14 @@ python Rainbow.py
 # Contact
 If you have ideas of improvements or if you want to report a bug please make a message on https://github.com/ALittlePatate/Rainbow-Cheat-CS-GO/issues or message me on Discord at A Little Patate#6013.
 
+# V1.01 Features and improvements
+
+Added a "current value" label into the triggerbot configuration.
+
+Added commentaries.
+
+Deleted an useless function
+
 # V1.0 Features
 
 Aimbot (Not added yet)
