@@ -1,5 +1,5 @@
 # Rainbow Cheat CS:GO
-A private csgo legit cheat in python 3.5 based on cheats found in github wich include wallhack, triggerbot, auto bhop, no flash and more in the next updates.
+A private csgo legit cheat in python 3.5 based on cheats found on [github](https://github.com) wich include wallhack, triggerbot, auto bhop, no flash and more in the next updates.
 
 # Read this (important)
 I played with this cheat only ~1 hour online on VAC servers.
