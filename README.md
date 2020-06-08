@@ -15,6 +15,15 @@ If you have ideas of improvements or if you want to report a bug please make a m
 
 # Changelog
 
+## V2.01
+* Added a money hack (you can see enemy money)
+* Added money hack configuration (refresh delay)
+* Added radar hack
+* Added RCS (Recoil Control System)
+* Added an Aimbot
+* Added aimbot configuration (toggle key, fov, smooth)
+* Fixed the triggerbot
+
 ## V1.01
 * Added a "current value" label into the triggerbot configuration.
 * Added commentaries.
