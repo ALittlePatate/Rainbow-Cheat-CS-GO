@@ -2,7 +2,7 @@
 A private csgo legit cheat in python 3.5 based on cheats found on [github](https://github.com) wich include wallhack, triggerbot, auto bhop, no flash and more in the next updates.
 
 # Read this (important)
-I played with this cheat only ~1 hour online on VAC servers.
+I played with this cheat only ~15 hour online on VAC servers.
 The cheat my be detectable by VAC.
 I'll play with it a lot and i will update this section.
 For the moment, play with this cheat or in non vac secure servers or on an alt account.
