@@ -42,18 +42,50 @@ aim_rage = False
 def create_temp_file() :
     os.system("cd configs/ && del temp.temp")
     with open("configs/temp.temp", "a") as c :
+
+        global delay_tg
+        global key_tg
+        global key_ai
+        global smooth_ai
+        global fov_ai
+        global fov_fh
+        global thp
+        global rapidfire_key
+        delay_tg = delay_tg.replace(" ", "")
+        delay_tg = delay_tg.replace("\n", "")
+        key_tg = key_tg.replace(" ", "")
+        key_tg = key_tg.replace("\n", "")
+        key_ai = key_ai.replace(" ", "")
+        key_ai = key_ai.replace("\n", "")
+        smooth_ai = smooth_ai.replace(" ", "")
+        smooth_ai = smooth_ai.replace("\n", "")
+        fov_ai = fov_ai.replace(" ", "")
+        fov_ai = fov_ai.replace("\n", "")
+        fov_fh = fov_fh.replace(" ", "")
+        fov_fh = fov_fh.replace("\n", "")
+        thp = thp.replace(" ", "")
+        thp = thp.replace("\n", "")
+        rapidfire_key = rapidfire_key.replace(" ", "")
+        rapidfire_key = rapidfire_key.replace("\n", "")
+
         c.write("#Triggerbot\n")
         c.write(str(delay_tg))
+        c.write("\n")
         c.write(key_tg)
         c.write("\n")
         c.write("#Aimbot\n")
         c.write(key_ai)
+        c.write("\n")
         c.write(str(smooth_ai))
+        c.write("\n")
         c.write(str(fov_ai))
+        c.write("\n")
         c.write("#FOV\n")
         c.write(str(fov_fh))
+        c.write("\n")
         c.write("#Third person\n")
         c.write(str(thp))
+        c.write("\n")
         c.write("#Rapid Fire\n")
         c.write(str(rapidfire_key))
         c.close()
@@ -168,18 +200,50 @@ def config_loader() :
     def export() :                      #Sous programme qui exporte la configuration actuelle
         conf_name = conf_entry.get()
         with open("configs/"+conf_name+".cfg", "a") as c :
+
+            global delay_tg
+            global key_tg
+            global key_ai
+            global smooth_ai
+            global fov_ai
+            global fov_fh
+            global thp
+            global rapidfire_key
+            delay_tg = delay_tg.replace(" ", "")
+            delay_tg = delay_tg.replace("\n", "")
+            key_tg = key_tg.replace(" ", "")
+            key_tg = key_tg.replace("\n", "")
+            key_ai = key_ai.replace(" ", "")
+            key_ai = key_ai.replace("\n", "")
+            smooth_ai = smooth_ai.replace(" ", "")
+            smooth_ai = smooth_ai.replace("\n", "")
+            fov_ai = fov_ai.replace(" ", "")
+            fov_ai = fov_ai.replace("\n", "")
+            fov_fh = fov_fh.replace(" ", "")
+            fov_fh = fov_fh.replace("\n", "")
+            thp = thp.replace(" ", "")
+            thp = thp.replace("\n", "")
+            rapidfire_key = rapidfire_key.replace(" ", "")
+            rapidfire_key = rapidfire_key.replace("\n", "")
+
             c.write("#Triggerbot\n")
             c.write(str(delay_tg))
+            c.write("\n")
             c.write(key_tg)
             c.write("\n")
             c.write("#Aimbot\n")
             c.write(key_ai)
+            c.write("\n")
             c.write(str(smooth_ai))
+            c.write("\n")
             c.write(str(fov_ai))
+            c.write("\n")
             c.write("#FOV\n")
             c.write(str(fov_fh))
+            c.write("\n")
             c.write("#Third person\n")
             c.write(str(thp))
+            c.write("\n")
             c.write("#Rapid Fire\n")
             c.write(str(rapidfire_key))
             c.close()
