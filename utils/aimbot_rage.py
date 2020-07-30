@@ -170,12 +170,15 @@ def main():
                 break
             line_nmb = line_nmb + 1
 
-    key_ai = key_ai[0:-1] #On sort le retour à la ligne après le nom de la touche
+    key_ai = key_ai.replace("\n", "")
     key_ai = key_ai.replace(" ", "")  #On sort les espaces
     trigger_key = key_ai
+    smooth_ai = smooth_ai.replace("\n", "")
+    smooth_ai = smooth_ai.replace(" ", "")
     smooth_ai = float(smooth_ai) #On converti smooth_ai en integer
     smooth = smooth_ai
-    fov_ai = fov_ai[0:-1] #On sort le retour à la ligne après le nom de la touche
+    fov_ai = fov_ai.replace("\n", "")
+    fov_ai = fov_ai.replace(" ", "")
     fov_ai = float(fov_ai) #On converti fov_ai en integer
     aimfov = 900
     global aimfov
