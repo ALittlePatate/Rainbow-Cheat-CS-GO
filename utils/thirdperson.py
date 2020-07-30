@@ -31,7 +31,7 @@ def main():
                 break
             line_nmb = line_nmb + 1
     
-    button = button[0:-1] #On sort le retour à la ligne après le nom de la touche
+    button = button.replace("\n", "")
     button = button.replace(" ", "")
 
     engine = pymem.process.module_from_name(pm_memory.process_handle, "engine.dll").lpBaseOfDll
