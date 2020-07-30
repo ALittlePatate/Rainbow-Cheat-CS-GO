@@ -19,7 +19,7 @@ def main():
                 if line_nmb == 13 :
                     rapidbutton = line
                     rapidbutton = rapidbutton.replace(" ", "")
-                    #rapidbutton = rapidbutton[0:-1] #On sort le retour à la ligne après le nom de la touche
+                    rapidbutton = rapidbutton[0:-1] #On sort le retour à la ligne après le nom de la touche
                 if line_nmb >= 14  :
                     config_file.close()
                     break
