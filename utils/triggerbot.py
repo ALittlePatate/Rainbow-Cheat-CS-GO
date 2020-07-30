@@ -32,8 +32,10 @@ def main():
                 break
             line_nmb = line_nmb + 1
     
-    key_tg = key_tg[0:-1] #On sort le retour à la ligne après le nom de la touche
     key_tg = key_tg.replace(" ", "")
+    key_tg = key_tg.replace("\n", "")
+    delay_tg = delay_tg.replace(" ", "")
+    delay_tg = delay_tg.replace("\n", "")
     delay_tg = float(delay_tg) #On converti delay_tg en integer
     trigger_key = key_tg  #On met la variable trigger_key = key_tg pour que la touche soit celle de la config
 
