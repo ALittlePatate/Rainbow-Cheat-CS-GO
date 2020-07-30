@@ -4,7 +4,6 @@ import win32api
 import pymem
 import keyboard
 import ctypes
-from pynput.mouse import Listener
 from math import atan2, sqrt, pi, asin, isnan
 import time
  
