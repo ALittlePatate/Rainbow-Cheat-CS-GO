@@ -168,7 +168,7 @@ def main():
                 break
             line_nmb = line_nmb + 1
 
-    key_ai = key_ai[0:-1] #On sort le retour à la ligne après le nom de la touche
+    key_ai = key_ai.replace("\n", "")
     key_ai = key_ai.replace(" ", "")  #On sort les espaces
     trigger_key = key_ai
     smooth = 999
