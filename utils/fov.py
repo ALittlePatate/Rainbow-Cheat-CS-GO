@@ -28,7 +28,7 @@ def main():
                 break
             line_nmb = line_nmb + 1
     
-    inputFOV = button[0:-1] #On sort le retour à la ligne après le nom de la touche
+    inputFOV = inputFOV.replace("\n", "")
     inputFOV = inputFOV.replace(" ", "")
     inputFOV = int(inputFOV)
 
