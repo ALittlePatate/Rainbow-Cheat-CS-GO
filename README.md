@@ -23,6 +23,7 @@ If you have ideas of improvements or if you want to report a bug please make a m
 * Added a legit aimbot
 * Added a crosshair hack
 * Fixed the configs exports
+* The money hack is now optimised, no more delay to set !
 * Now you can change a parameter and it will take affect immediatly, no more export/reload config !
 
 ## V2.01
