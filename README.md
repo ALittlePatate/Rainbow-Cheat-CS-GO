@@ -1,3 +1,6 @@
+# \WARING/
+This project won't be updated for a while, please send me a message on discord (see contact) if you have a problem with it or create an issue on github
+
 # Rainbow Cheat CS:GO
 A private csgo legit cheat in python 3.5 based on cheats found on [github](https://github.com) wich include wallhack, triggerbot, auto bhop, no flash and more in the next updates.
 
