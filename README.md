@@ -12,6 +12,21 @@ The cheat is undetectable by VAC (updated the 05/09/2020)
 # Usage
 python Rainbow.py
 
+# Features
+* FOV hack
+* Third Perosn
+* Rapid fire
+* Legit aimbot
+* Semi-rage aimbot
+* Crosshair hack
+* Money hack
+* Radar hack
+* RCS (Recoil Control System)
+* Triggerbot
+* Glow hack
+* Auto bhop
+* No flash
+
 # Contact
 If you have ideas of improvements or if you want to report a bug please make a message on [Issues](https://github.com/ALittlePatate/Rainbow-Cheat-CS-GO/issues) or message me on [Discord](https://discord.com/) at A Little Patate#6013.
 
