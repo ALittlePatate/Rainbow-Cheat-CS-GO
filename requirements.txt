@@ -1,0 +1,15 @@
+sys
+tkinter
+PIL
+multiprocessing
+threading
+ctypes
+os
+pymem
+keyboard
+requests
+win32api
+time
+math
+PyQt5
+re
