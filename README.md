@@ -10,11 +10,15 @@ I played with this cheat ~100 hour online on VAC servers.
 The cheat is undetectable by VAC (updated the 05/09/2020)
 
 # Installation
+```
 pip -r requirements.txt
+```
 
 # Usage
 ### Use Python 3.5 !
+```
 python Rainbow.py
+```
 
 # Features
 * FOV hack
