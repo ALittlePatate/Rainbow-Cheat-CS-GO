@@ -11,7 +11,7 @@ The cheat is undetectable by VAC (updated the 05/09/2020)
 
 # Installation
 ### Make sure to have Python 3.5 and pip added to your PATH and be in the same directory as the cheat
-### If you have issues try to upadte pip
+### If you have issues try to update pip
 ```
 pip -r requirements.txt
 ```
