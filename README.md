@@ -17,6 +17,7 @@ pip -r requirements.txt
 ```
 
 # Usage
+## If you are too lazy to use python, download the [compiled version](https://github.com/ALittlePatate/Rainbow-Cheat-CS-GO/releases/) of the cheat. Please note that you won't have the crosshair hack.
 ### Use Python 3.5 !
 ```
 python Rainbow.py
