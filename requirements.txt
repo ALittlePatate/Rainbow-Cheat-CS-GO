@@ -4,3 +4,5 @@ pymem
 keyboard
 requests
 PyQt5
+pywin32
+win32gui
