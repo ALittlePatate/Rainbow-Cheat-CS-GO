@@ -1,6 +1,5 @@
 Pillow
 multiprocessing
-threading
 ctypes
 os
 pymem
