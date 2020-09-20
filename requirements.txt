@@ -4,4 +4,3 @@ pymem
 keyboard
 requests
 PyQt5
-re
