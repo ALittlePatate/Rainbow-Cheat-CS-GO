@@ -1,5 +1,5 @@
 Pillow
-multiprocessing
+multiprocess==0.70.5
 pymem
 keyboard
 requests
