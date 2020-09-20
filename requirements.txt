@@ -1,6 +1,5 @@
 Pillow
 multiprocessing
-ctypes
 os
 pymem
 keyboard
