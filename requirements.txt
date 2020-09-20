@@ -1,6 +1,5 @@
 Pillow
 multiprocessing
-os
 pymem
 keyboard
 requests
