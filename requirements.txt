@@ -3,7 +3,6 @@ multiprocessing
 pymem
 keyboard
 requests
-time
 math
 PyQt5
 re
