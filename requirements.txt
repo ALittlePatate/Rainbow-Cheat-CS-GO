@@ -1,4 +1,3 @@
-sys
 tkinter
 PIL
 multiprocessing
