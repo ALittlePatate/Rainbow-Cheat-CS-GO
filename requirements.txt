@@ -1,4 +1,4 @@
-PIL
+Pillow
 multiprocessing
 threading
 ctypes
