@@ -3,6 +3,5 @@ multiprocessing
 pymem
 keyboard
 requests
-math
 PyQt5
 re
