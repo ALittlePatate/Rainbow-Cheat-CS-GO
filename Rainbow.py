@@ -38,6 +38,7 @@ fov_fh = 90
 thp = "x"
 rapidfire_key = "c"
 aim_rage = False
+rcs_percent = 100
 
 def create_temp_file() :
     os.system("cd configs/ && del temp.temp")
@@ -51,6 +52,10 @@ def create_temp_file() :
         global fov_fh
         global thp
         global rapidfire_key
+        global rcs_percent
+        rcs_percent = str(rcs_percent)
+        rcs_percent = rcs_percent.replace(" ", "")
+        rcs_percent = rcs_percent.replace("\n", "")
         delay_tg = delay_tg.replace(" ", "")
         delay_tg = delay_tg.replace("\n", "")
         key_tg = key_tg.replace(" ", "")
@@ -88,6 +93,9 @@ def create_temp_file() :
         c.write("\n")
         c.write("#Rapid Fire\n")
         c.write(str(rapidfire_key))
+        c.write("\n")
+        c.write("#RCS\n")
+        c.write(str(rcs_percent))
         c.close()
     
     f = open("configs/path.txt", "w")
@@ -170,12 +178,16 @@ def config_loader() :
                 if line_nmb == 13 :
                     rapidfire_key = line
                     global rapidfire_key
-                if line_nmb >= 14 :
+                if line_nmb == 15 :
+                    rcs_percent = line
+                    global rcs_percent
+                if line_nmb >= 16 :
                     config_file.close()
                     break
                 line_nmb = line_nmb + 1
         
         #On met à jour dans les configs
+        rcs_print = rcs_percent
         delay_tg_print = delay_tg
         key_tg_print = key_tg
         key_ai_print = key_ai
@@ -184,6 +196,7 @@ def config_loader() :
         fov_fh_print = fov_fh
         thp_print = thp
         rapidfire_print = rapidfire_key
+        global rcs_print
         global thp_print
         global fov_fh_print
         global fov_ai_print
@@ -209,6 +222,9 @@ def config_loader() :
             global fov_fh
             global thp
             global rapidfire_key
+            global rcs_percent
+            rcs_percent = rcs_percent.replace(" ", "")
+            rcs_percent = rcs_percent.replace("\n", "")
             delay_tg = delay_tg.replace(" ", "")
             delay_tg = delay_tg.replace("\n", "")
             key_tg = key_tg.replace(" ", "")
@@ -246,6 +262,9 @@ def config_loader() :
             c.write("\n")
             c.write("#Rapid Fire\n")
             c.write(str(rapidfire_key))
+            c.write("\n")
+            c.write("#RCS\n")
+            c.write(str(rcs_percent))
             c.close()
 
         MessageBox = ctypes.windll.user32.MessageBoxW
@@ -649,11 +668,11 @@ def rapidfire_conf() :
         with open("configs/"+path) as config_file :
             line_nmb = 1
             for line in config_file :
-                if line_nmb == 15 :
+                if line_nmb == 13 :
                     rapidfire_key = line[0:-1]
                     rapidfire_print = str(rapidfire_key)
                     global rapidfire_print
-                if line_nmb >= 16 :
+                if line_nmb >= 14 :
                     config_file.close()
                     break
                 line_nmb = line_nmb + 1
@@ -683,6 +702,68 @@ def rapidfire_conf() :
         create_temp_file()
 
     rapidfire_conf.mainloop()
+
+def rcs_conf() :
+
+    #Création de la fenêtre
+    rcs_conf = Tk()
+    w = 400
+    h = 60
+    ws = rcs_conf.winfo_screenwidth()
+    hs = rcs_conf.winfo_screenheight()
+    x = (ws/2) - (w/2)
+    y = (hs/2) - (h/2)
+    rcs_conf.geometry('%dx%d+%d+%d' % (w, h, x, y))
+    rcs_conf.title('Recoil Control System Configuration')
+    rcs_conf.iconbitmap("images/rainbow.ico")
+    rcs_conf.config(background='#f0f0f0')
+
+    #On cherche le nom de la config actuelle
+    with open("configs/path.txt") as path_txt :
+        path = path_txt.readline()
+        path_txt.close()
+
+    #On met à jour les valeurs en les changeants par celles de la config choisie si c'est la première fois dans le programme
+    try :
+        str(rcs_print)
+    except Exception as e:
+        with open("configs/"+path) as config_file :
+            line_nmb = 1
+            for line in config_file :
+                if line_nmb == 15 :
+                    rcs_percent = line
+                    rcs_print = str(rcs_percent)
+                    global rcs_print
+                if line_nmb >= 16 :
+                    config_file.close()
+                    break
+                line_nmb = line_nmb + 1
+    
+    #Création du texte	
+    rcs_percent = " "
+    label1 = Label(rcs_conf, text = 'Perfect Percentage :', font=(40))  #Perfect Percentage (titre)
+    label1.place(relx=1, x=-250, y=0, anchor=NE)                                        #Perfect Percentage (titre)
+    label3 = Label(rcs_conf, text = 'Current value : '+str(rcs_print), font=(40)) #Perfect Percentage (current)
+    label3.place(relx=1, x=-53, y=0, anchor=NE)                                                #Perfect Percentage (current)
+    rcs_entry = Entry(rcs_conf, textvariable = rcs_percent, width=25)          #Perfect Percentage (entrée)
+    rcs_entry.place(relx=1, x=-243, y=25, anchor=NE)                               #Perfect Percentage (entrée)
+    bouton = Button(rcs_conf, text="Submit", font=(40), command= lambda: rcs_conf_save_percent(rcs_entry, rcs_conf))  #Perfect Percentage (boutton)
+    bouton.place(relx=1, x=-173, y=20, anchor=NE)                                                                                       #Perfect Percentage (boutton)
+
+    def rcs_conf_save_percent(rcs_entry, rcs_conf) :    #On récupère le texte et on fait apparaître une fenêtre
+        rcs_percent = rcs_entry.get()
+        rcs_print = rcs_percent
+        global rcs_print
+        print("rcs percent")
+        print(rcs_percent)
+        MessageBox = ctypes.windll.user32.MessageBoxW
+        MessageBox(None, 'Value updated !', 'Success', 0)
+
+        #On met à jour le Perfect Percentage du rcs
+        global rcs_percent
+        create_temp_file()
+
+    rcs_conf.mainloop()
 
 def ragemode_info() :
 
@@ -1148,7 +1229,10 @@ def buttons(window) :
 
     #RCS
     RCS = Button(window, text="RCS", bg=red, fg='#000000', font=(40), command= lambda: RCS.configure(background = rcs(window, green, red, RCS)))
-    RCS.place(relx=1, x=-326, y=250, anchor=NE)
+    RCS.place(relx=1, x=-270, y=250, anchor=NE)
+    #Config du RCS
+    RCS_conf = Button(window, text="Config", fg='#000000', font=(40), command= lambda: rcs_conf())
+    RCS_conf.place(relx=1, x=-315, y=250, anchor=NE)
 
     #Radar Hack
     RadarHack = Button(window, text="RadarHack", bg=red, fg='#000000', font=(40), command= lambda: RadarHack.configure(background = radarhack(window, green, red, RadarHack)))
