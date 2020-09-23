@@ -44,6 +44,9 @@ If you have ideas of improvements or if you want to report a bug please make a m
 
 # Changelog
 
+## V3.03
+* Added a rcs perfect percentage config
+
 ## V3.02
 * Added a FOV hack (need a fix)
 * Added a third person hack
