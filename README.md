@@ -23,7 +23,7 @@ python Rainbow.py
 
 # Features
 * FOV hack
-* Third Perosn
+* Third Person
 * Rapid fire
 * Legit aimbot
 * Semi-rage aimbot
