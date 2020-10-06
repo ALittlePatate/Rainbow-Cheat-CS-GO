@@ -5,7 +5,7 @@ If you want to contribute, be free to send me a message on discord (see contact)
 
 # Read this (important)
 I played with this cheat ~100 hour online on VAC servers.
-The cheat is undetectable by VAC (updated the 20/09/2020)
+The cheat is undetectable by VAC (updated the 06/10/2020)
 
 # Installation
 ### Make sure to have Python 3.5 and pip added to your PATH and be in the same directory as the cheat
@@ -22,6 +22,11 @@ python Rainbow.py
 ```
 
 # Features
+* Chams
+* Rank Reveal
+* Hitsound
+* Sound ESP
+* Silent Aim
 * FOV hack
 * Third Person
 * Rapid fire
@@ -40,6 +45,15 @@ python Rainbow.py
 If you have ideas of improvements or if you want to report a bug please make a message on [Issues](https://github.com/ALittlePatate/Rainbow-Cheat-CS-GO/issues) or message me on [Discord](https://discord.com/) at A Little Patate#6013.
 
 # Changelog
+
+## V4.03
+* Added a Rank Reveal
+* Added some Chams
+* Added a Hitsound
+* Added a Sound ESP
+* Added a Silent Aim
+* Fixed the FOV
+* Now the color of the wallhack changes in function of the player's health
 
 ## V3.03
 * Added a rcs perfect percentage config
