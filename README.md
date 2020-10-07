@@ -23,7 +23,7 @@ python Rainbow.py
 
 # Features
 * Chams
-* Rank Reveal
+* Rank Reveal [BETA]
 * Hitsound
 * Sound ESP
 * Silent Aim
@@ -47,7 +47,7 @@ If you have ideas of improvements or if you want to report a bug please make a m
 # Changelog
 
 ## V4.03
-* Added a Rank Reveal
+* Added a Rank Reveal [BETA]
 * Added some Chams
 * Added a Hitsound
 * Added a Sound ESP
