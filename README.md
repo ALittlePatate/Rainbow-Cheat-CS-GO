@@ -4,8 +4,8 @@ All the offsets are from [the hazedumper github page](https://github.com/frk1/ha
 If you want to contribute, be free to send me a message on discord (see contact) !
 
 # Read this (important)
-I played with this cheat ~100 hour online on VAC servers.
-The cheat is undetectable by VAC (updated the 06/10/2020)
+I played with this cheat ~150 hour online on VAC servers.
+The cheat is undetectable by VAC (updated the 15/10/2020)
 
 # Installation
 ### Make sure to have Python 3.5 and pip added to your PATH and be in the same directory as the cheat
