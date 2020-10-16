@@ -44,6 +44,16 @@ python Rainbow.py
 # Contact
 If you have ideas of improvements or if you want to report a bug please make a message on [Issues](https://github.com/ALittlePatate/Rainbow-Cheat-CS-GO/issues) or message me on [Discord](https://discord.com/) at A Little Patate#6013.
 
+# Known issues
+* The silent aim isn't very acurate sometimes
+* Hitsound need a fix (oudated offset)
+* Rank Reveal need a proper window (with tkinter) to render names, a lot of names can't be printed in the cmd.
+* FOV is glitchy when un-scoping
+* Crosshair hack is always on, it need to be on with snipers only
+* Legit aimbot isn't very legit
+* Bhop isn't very legit
+
+
 # Changelog
 
 ## V4.03
