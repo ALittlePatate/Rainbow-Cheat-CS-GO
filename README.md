@@ -5,7 +5,7 @@ If you want to contribute, be free to send me a message on discord (see contact)
 
 # Read this (important)
 I played with this cheat ~150 hour online on VAC servers.
-The cheat is undetectable by VAC (updated the 18/10/2020)
+The cheat is undetectable by VAC (updated the 19/10/2020)
 
 # Installation
 ### Make sure to have Python 3.5 and pip added to your PATH and be in the same directory as the cheat
