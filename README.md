@@ -47,7 +47,6 @@ If you have ideas of improvements or if you want to report a bug please make a m
 
 # Known issues
 * The silent aim isn't very acurate sometimes
-* Hitsound need a fix (oudated specific offset)
 * Rank Reveal need a proper window (with tkinter) to render names, a lot of names can't be printed in the cmd.
 * FOV is glitchy when un-scoping
 * Crosshair hack is always on, it need to be on with snipers only
