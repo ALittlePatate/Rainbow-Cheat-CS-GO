@@ -47,14 +47,15 @@ If you have ideas of improvements or if you want to report a bug please make a m
 
 # Known issues
 * The silent aim isn't very acurate sometimes
-* Rank Reveal need a proper window (with tkinter) to render names, a lot of names can't be printed in the cmd.
 * FOV is glitchy when un-scoping
-* Crosshair hack is always on, it need to be on with snipers only
 * Legit aimbot isn't very legit
-* Bhop isn't very legit
-
 
 # Changelog
+
+## V4.04
+* The Rank Reveal has now a proper window
+* The crosshair hack is now on only when you have a sniper and you are not scoping
+* Added a legit bhop
 
 ## V4.03
 * Added a Rank Reveal [BETA]
