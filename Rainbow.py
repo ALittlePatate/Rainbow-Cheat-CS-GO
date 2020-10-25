@@ -1470,7 +1470,7 @@ def mainmenu(window, first) :
     x = (ws/2) - (w/2)
     y = (hs/2) - (h/2)
     window.geometry('%dx%d+%d+%d' % (w, h, x, y))
-    window.title('Rainbow Cheat V4.03 by ALittlePatate')
+    window.title('Rainbow Cheat V4.04 by ALittlePatate')
     window.iconbitmap("images/rainbow.ico")
     window.config(background='#fcfefc')
 
