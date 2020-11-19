@@ -1,3 +1,5 @@
+# /!\This repo won't be updated because i will recode the cheat/!\
+
 # Rainbow Cheat CS:GO
 A private csgo legit cheat in python 3.5 based on cheats found on [github](https://github.com) wich include wallhack, triggerbot, auto bhop, no flash and more in the next updates.
 All the offsets are from [the hazedumper github page](https://github.com/frk1/hazedumper) so if the cheat is not working, retry later !
