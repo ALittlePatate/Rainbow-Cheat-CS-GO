@@ -1,7 +1,7 @@
 # /!\This repo won't be updated because i will recode the cheat/!\
 
 # Rainbow Cheat CS:GO
-A private csgo legit cheat in python 3.5 based on cheats found on [github](https://github.com) wich include wallhack, triggerbot, auto bhop, no flash and more in the next updates.
+A private csgo legit cheat in [python 3.5](https://www.python.org/downloads/release/python-350/) based on cheats found on [github](https://github.com) wich include wallhack, triggerbot, auto bhop, no flash and more in the next updates.
 All the offsets are from [the hazedumper github page](https://github.com/frk1/hazedumper) so if the cheat is not working, retry later !
 If you want to contribute, be free to send me a message on discord (see contact) !
 
@@ -11,7 +11,7 @@ I played with this cheat ~300 hour online on VAC servers.
 The cheat is undetectable by VAC (updated the 13/01/2021)
 
 # Installation
-### Make sure to have Python 3.5 and pip added to your PATH and be in the same directory as the cheat
+### Make sure to have [Python 3.5](https://www.python.org/downloads/release/python-350/) and pip added to your PATH and be in the same directory as the cheat
 ### If you have issues try to update pip
 ```
 pip install -r requirements.txt
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 # Usage
 ## If you are too lazy to use [python](https://www.python.org/downloads/release/python-350/), download the [compiled version](https://github.com/ALittlePatate/Rainbow-Cheat-CS-GO/releases/) of the cheat. Please note that you won't have the crosshair hack.
-### Use Python 3.5 !
+### Use [Python 3.5](https://www.python.org/downloads/release/python-350/) !
 ```
 python Rainbow.py
 ```
