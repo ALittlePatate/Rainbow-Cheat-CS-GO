@@ -45,7 +45,7 @@ python Rainbow.py
 * No flash
 
 # Contact
-If you have ideas of improvements or if you want to report a bug please make a message on [Issues](https://github.com/ALittlePatate/Rainbow-Cheat-CS-GO/issues) or message me on [Discord](https://discord.com/) at A Little Patate#6013.
+If you have ideas of improvements or if you want to report a bug please make a message on [Issues](https://github.com/ALittlePatate/Rainbow-Cheat-CS-GO/issues) or message me on [Discord](https://discord.com/) at ALittlePatate#1252.
 
 # Known issues
 * The silent aim isn't very acurate sometimes
