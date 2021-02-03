@@ -1,5 +1,11 @@
 # /!\This repo won't be updated because i will recode the cheat/!\
 
+# Recode
+The recode ui will be powered by [Kivy](https://kivy.org/doc/stable/api-kivy.modules.html) so it's gonna be much much cleaner.
+It will include ui, chams and glow colors customization with a much better way to write and read configs (thanks [Configparser](https://docs.python.org/3/library/configparser.html) !).
+It will be also more stable and more user-friendly.
+The recode is completed at 35-40%.
+
 # Rainbow Cheat CS:GO
 A private csgo legit cheat in [python 3.5](https://www.python.org/downloads/release/python-350/) based on cheats found on [github](https://github.com) wich include wallhack, triggerbot, auto bhop, no flash and more in the next updates.
 All the offsets are from [the hazedumper github page](https://github.com/frk1/hazedumper) so if the cheat is not working, retry later !
